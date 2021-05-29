@@ -1,5 +1,6 @@
 import numpy as np
 
+# Array Create
 list = [2,5,7,8]
 np.array(list)
 np.array([list,list])
@@ -23,3 +24,26 @@ np.random.randint(1,10,4)
 mat = np.random.randn(2,3)
 mat.size
 mat.shape
+
+# Array Index & Selection
+
+arr = np.arange(50,80)
+arr.size
+arr.shape
+arr
+arr[:]
+arr[3:8]
+arr[5:]
+arr[:5]
+arr[:,1]
+arr[:,1:2]
+arr[:,1:3]
+arr = np.random.rand(3,4)
+arr[0,1]
+arr[1,]
+arr[,3]
+arr[1:]
+arr[:,3]
+arr[1:3]
+arr[1:3,1:3]
+arr[1:2,:]
