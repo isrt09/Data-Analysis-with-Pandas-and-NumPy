@@ -47,3 +47,42 @@ arr[:,3]
 arr[1:3]
 arr[1:3,1:3]
 arr[1:2,:]
+
+# Built In Functions
+a = np.random.rand(3,4)
+b = np.random.rand(3,4)
+np.hstack((a,b))
+np.vstack((a,b))
+np.vstack((b,a))
+a = 10 * a
+np.floor(a)
+np.ceil(a)
+
+new_mat = np.floor(a)
+np.sum(new_mat)
+np.sum(new_mat,axis=0)
+np.sum(new_mat,axis=1)
+
+np.mean(new_mat)
+np.mean(new_mat, axis=0)
+np.mean(new_mat, axis=1)
+
+np.min(new_mat)
+np.min(new_mat, axis=0)
+np.min(new_mat, axis=1)
+
+np.max(new_mat)
+np.max(new_mat, axis=0)
+np.max(new_mat, axis=1)
+
+np.cumsum(new_mat)
+np.cumproduct(new_mat)
+np.unique(new_mat)
+
+arr = np.arange(1,10)
+
+for value in arr:
+	print(value)
+
+for index,value in enumerate(arr):
+	print(index,value)
