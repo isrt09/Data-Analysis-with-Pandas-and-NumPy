@@ -86,3 +86,10 @@ for value in arr:
 
 for index,value in enumerate(arr):
 	print(index,value)
+
+a = np.array([1,2,3,4,5])
+np.append(a,[10,12,14])
+np.insert(a,1,-100)
+np.insert(a,1,-100, axis =1)
+np.insert(a,1,-100, axis =0)
+np.delete(a,2)
